@@ -1,6 +1,6 @@
 # meros-game
 
-完成品は [こちらから](meros-game.web.app) から。
+完成品は [こちらから](https://meros-game.web.app/) から。
 
 ## 使い方
 
