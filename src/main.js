@@ -6,14 +6,14 @@ import vuetify from './plugins/vuetify'
 import firebase from 'firebase'
 
 let config = {
-  apiKey: "AIzaSyBdvU9aJKzIxTTdizfOdHk46QjwSR0DzGg",
-  authDomain: "palami-apps.firebaseapp.com",
-  databaseURL: "https://palami-apps.firebaseio.com",
-  projectId: "palami-apps",
-  storageBucket: "palami-apps.appspot.com",
-  messagingSenderId: "1000349405707",
-  appId: "1:1000349405707:web:30b2663bba0702a693ed0e",
-  measurementId: "G-SXYQZW4EMY"
+  apiKey: "機密情報",
+  authDomain: "機密情報",
+  databaseURL: "機密情報",
+  projectId: "機密情報",
+  storageBucket: "機密情報",
+  messagingSenderId: "機密情報",
+  appId: "機密情報",
+  measurementId: "機密情報"
 };
 firebase.initializeApp(config);
 firebase.analytics();
