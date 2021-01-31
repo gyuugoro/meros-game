@@ -18,6 +18,18 @@
         {{ data.name }}・・・{{ data.character }} <br />
       </p>
     </div>
+    <v-btn
+      @click="goHome"
+      color="orange"
+      dark
+      fab
+      bottom
+      right
+      fixed
+      elevation="3"
+    >
+      <v-icon>mdi-home</v-icon>
+    </v-btn>
   </v-container>
 </template>
 
@@ -82,6 +94,9 @@ export default {
         this.isShow = false;
       }
     },
+    goHome() {
+      this.$router.push("/");
+    },
   },
 };
 </script>
@@ -90,91 +105,106 @@ export default {
 .meros {
   background: url("../assets/メロス.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .serinuntius {
   background: url("../assets/セリヌンティウス.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .dionis {
   background: url("../assets/ディオニス.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_sister {
   background: url("../assets/メロスの妹.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .philostratus {
   background: url("../assets/フィロストラトス.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .bandits {
   background: url("../assets/山賊.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_sister_marriage_partner {
   background: url("../assets/メロスの妹の結婚相手.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_swayed_oldman {
   background: url("../assets/メロスに揺さぶられた老爺.jpeg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_red_cloak_dedicated_girl {
   background: url("../assets/メロスに緋のマントを捧げた少女.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .zeus {
   background: url("../assets//ゼウス.jpeg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_kickoff_doc {
   background: url("../assets/メロスに蹴とばされた犬.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .meros_sheep {
   background: url("../assets/メロスの羊.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .osamu_dazai {
   background: url("../assets/太宰治.jpeg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .forever_traitor {
   background: url("../assets/永遠の裏切者、地上で最も不名誉の人種.jpeg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .sage_arekis {
   background: url("../assets/賢臣のアレキス.jpg");
   background-size: cover;
-  filter: blur(5px);
+  filter: blur(3px);
+  background-position: center;
 }
 
 .text {
@@ -207,6 +237,6 @@ export default {
 .list-text,
 h1 {
   margin-top: 20px;
-  color: orangered;
+  color: #ff9800;
 }
 </style>
